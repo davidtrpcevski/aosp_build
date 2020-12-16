@@ -5,6 +5,6 @@ LOCAL_MODULE := PrebuiltBugle
 LOCAL_PACKAGE_NAME := com.google.android.apps.messaging
 
 GAPPS_LOCAL_OVERRIDES_MIN_VARIANT :=
-GAPPS_LOCAL_OVERRIDES_PACKAGES := messaging Mms
+GAPPS_LOCAL_OVERRIDES_PACKAGES := messaging Mms Messaging
 
 include $(BUILD_GAPPS_PREBUILT_APK)
