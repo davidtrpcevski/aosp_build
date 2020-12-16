@@ -4,5 +4,6 @@ include $(GAPPS_CLEAR_VARS)
 LOCAL_MODULE := StorageManagerGoogle
 LOCAL_PACKAGE_NAME := com.google.android.storagemanager
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_UNCOMPRESS_DEX := false
 
 include $(BUILD_GAPPS_PREBUILT_APK)
